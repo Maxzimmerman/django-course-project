@@ -1,5 +1,5 @@
 import pytest
-from .factories import TagFactory
+from my_site.blog.tests.factories import TagFactory
 
 
 def test_str_method():
