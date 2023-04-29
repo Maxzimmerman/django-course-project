@@ -1,12 +1,10 @@
 import pytest
 from .factories import TagFactory
 
-pytestmark = pytest.mark.django_db
 
-
-def test_str_method(tag_factory):
+def test_str_method():
     # Arrange
-    tag = TagFactory(caption="Test tag")
+    tag = TagFactory()
     # Act
     # Assert
     assert tag.__str__() == "Test tag"

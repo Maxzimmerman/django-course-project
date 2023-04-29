@@ -7,6 +7,8 @@ name = "pypi"
 django = "*"
 pillow = "*"
 pytest-factoryboy = "*"
+pytest = "*"
+factory-boy = "*"
 
 [dev-packages]
 
